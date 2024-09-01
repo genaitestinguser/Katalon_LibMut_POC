@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Proceed to Checkout</name>
+   <tag></tag>
+   <elementGuidId>19615951-7ce2-441e-ba79-fd5f7ea70617</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#top-cart-btn-checkout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='top-cart-btn-checkout']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Proceed to Checkout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>09972021-5d43-4e41-9361-41133f79adb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>top-cart-btn-checkout</value>
+      <webElementGuid>7863df26-2523-4b90-844b-4c37fdad33c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>db0d2e82-c1b2-4614-9ece-8a03608f352c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>action primary checkout</value>
+      <webElementGuid>c3ff2f1e-f64c-49f3-b135-927d429e40ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-action</name>
+      <type>Main</type>
+      <value>close</value>
+      <webElementGuid>1be571ea-87f1-4f8a-92f4-8e4678ec5444</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>
+                            attr: {
+                                title: $t('Proceed to Checkout')
+                            },
+                            click: closeMinicart()
+                        , i18n: 'Proceed to Checkout'</value>
+      <webElementGuid>dd45319f-49c2-478c-86f7-be8c168e4da9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Proceed to Checkout</value>
+      <webElementGuid>cc96c980-e956-4e98-85ae-83d53add1564</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Proceed to Checkout</value>
+      <webElementGuid>7392d32e-41b3-4d00-95aa-1e395f34875f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;top-cart-btn-checkout&quot;)</value>
+      <webElementGuid>861a0d4a-3862-4d3c-9b91-487fa9aaf894</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='top-cart-btn-checkout']</value>
+      <webElementGuid>b62c4d8c-a498-43da-8e6d-94086c312320</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='minicart-content-wrapper']/div[2]/div[3]/div/button</value>
+      <webElementGuid>29d9f8f6-288a-486b-960c-7cb7e2cbb7c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$196.00'])[1]/following::button[1]</value>
+      <webElementGuid>10ef5119-e70c-4571-87d5-c155f2cb2224</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart Subtotal'])[1]/following::button[1]</value>
+      <webElementGuid>b2d966fc-1425-4a30-88a2-b1effa087c01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recently added item(s)'])[1]/preceding::button[1]</value>
+      <webElementGuid>5efe288a-4c97-4197-99fa-a692e74bea86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Montana Wind Jacket'])[2]/preceding::button[1]</value>
+      <webElementGuid>53272d7e-906d-4643-8240-143c4677e245</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Proceed to Checkout']/parent::*</value>
+      <webElementGuid>f24ac0f4-b1f3-4624-a24a-c4459620982d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button</value>
+      <webElementGuid>b9d7ffdb-0101-405c-aaec-9aacb0c0796e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'top-cart-btn-checkout' and @type = 'button' and @title = 'Proceed to Checkout' and (text() = 'Proceed to Checkout' or . = 'Proceed to Checkout')]</value>
+      <webElementGuid>013494d0-4042-4ef4-bb8e-0a768e8b08b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

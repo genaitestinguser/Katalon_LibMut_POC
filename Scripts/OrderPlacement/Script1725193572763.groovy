@@ -17,21 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Open the browser
 WebUI.openBrowser('')
 
-WebUI.closeBrowser()
+//Navigate to the Ecommerce Application
+WebUI.navigateToUrl(GlobalVariable.AppUrl)
 
-WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
+//Enter the user id and password and sign-in
 
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Home Page/a_Sign In'))
 
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'), 'libosem856@apifan.com')
+WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'), GlobalVariable.Username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'), 'cvW8qx4B2o3F4VwP/kNsqA==')
+WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Customer Login/span_Sign In'))
+
+
+
 
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e'))
 

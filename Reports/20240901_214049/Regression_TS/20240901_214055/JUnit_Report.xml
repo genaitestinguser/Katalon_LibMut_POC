@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression_TS" time="82.635" tests="1" failures="0" errors="0">
+   <testsuite name="Regression_TS" tests="1" failures="0" errors="0" time="82.635" skipped="0" timestamp="01-09-2024T21:41:00" hostname="Administrator - 172.31.10.162" id="Test Suites/Regression_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\Katalon_LibMut_POC\\Reports\\20240901_214049\\Regression_TS\\20240901_214055"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\Katalon_LibMut_POC\\Reports\\20240901_214049\\Regression_TS\\20240901_214055\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 172.31.10.162"/>
+         <property name="os" value="Windows Server 2022 64bit"/>
+         <property name="katalonVersion" value="9.7.1.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="172.31.10.162"/>
+         <property name="sessionId" value="58fb263acd3b93081e8bd65d5b53dcad"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2022"/>
+      </properties>
+      <testcase name="Test Cases/OrderPlacement" time="82.349" classname="Test Cases/OrderPlacement" status="PASSED">
+         <system-out><![CDATA[01-09-2024T21:41:00 - [TEST_CASE][PASSED] - Test Cases/OrderPlacement: Test Cases/OrderPlacement
+
+01-09-2024T21:41:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-09-2024T21:41:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-09-2024T21:41:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-09-2024T21:41:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-09-2024T21:41:03 - [TEST_STEP][PASSED] - navigateToUrl(AppUrl): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+01-09-2024T21:41:07 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+01-09-2024T21:41:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-09-2024T21:41:07 - [MESSAGE][PASSED] - Current window maximized
+
+01-09-2024T21:41:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Home Page/a_Sign In")): Object: 'Object Repository/Ecomm/Page_Home Page/a_Sign In' is clicked on
+
+01-09-2024T21:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Home Page/a_Sign In' is clicked on
+
+01-09-2024T21:41:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername"), Username): Text 'libosem856@apifan.com' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'
+
+01-09-2024T21:41:11 - [MESSAGE][PASSED] - Text 'libosem856@apifan.com' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'
+
+01-09-2024T21:41:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword"), Password): Text 'Test@123' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'
+
+01-09-2024T21:41:12 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'
+
+01-09-2024T21:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Ecomm/Page_Customer Login/span_Sign In' is clicked on
+
+01-09-2024T21:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Customer Login/span_Sign In' is clicked on
+
+01-09-2024T21:41:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e")): Object: 'Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is clicked on
+
+01-09-2024T21:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is clicked on
+
+01-09-2024T21:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Men/a_Jackets")): Object: 'Object Repository/Ecomm/Page_Men/a_Jackets' is clicked on
+
+01-09-2024T21:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Men/a_Jackets' is clicked on
+
+01-09-2024T21:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket")): Object: 'Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket' is clicked on
+
+01-09-2024T21:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket' is clicked on
+
+01-09-2024T21:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/div_L")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_L' is clicked on
+
+01-09-2024T21:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_L' is clicked on
+
+01-09-2024T21:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53' is clicked on
+
+01-09-2024T21:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53' is clicked on
+
+01-09-2024T21:41:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty"), "2"): Text '2' is set on object 'Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty'
+
+01-09-2024T21:41:30 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty'
+
+01-09-2024T21:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+01-09-2024T21:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+01-09-2024T21:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+01-09-2024T21:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+01-09-2024T21:41:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/span_4")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_4' is clicked on
+
+01-09-2024T21:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_4' is clicked on
+
+01-09-2024T21:41:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout' is clicked on
+
+01-09-2024T21:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout' is clicked on
+
+01-09-2024T21:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4")): Object: 'Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4' is clicked on
+
+01-09-2024T21:42:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='ko_unique_4']'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-09-2024T21:42:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4'. Try using Self-healing.
+
+01-09-2024T21:42:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@name='ko_unique_4']'.
+
+01-09-2024T21:42:11 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='checkout-shipping-method-load']/table/tbody/tr[2]/td/input'.
+
+01-09-2024T21:42:11 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Administrator/git/Katalon_LibMut_POC/Reports/Self-healing/Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4_idRelative.png
+
+01-09-2024T21:42:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4' was broken. Propose an alternative one: '//div[@id='checkout-shipping-method-load']/table/tbody/tr[2]/td/input'.
+
+01-09-2024T21:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4' is clicked on
+
+01-09-2024T21:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Checkout/span_Next")): Object: 'Object Repository/Ecomm/Page_Checkout/span_Next' is clicked on
+
+01-09-2024T21:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Checkout/span_Next' is clicked on
+
+01-09-2024T21:42:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Checkout/span_Place Order")): Object: 'Object Repository/Ecomm/Page_Checkout/span_Place Order' is clicked on
+
+01-09-2024T21:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Checkout/span_Place Order' is clicked on
+
+01-09-2024T21:42:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Success Page/strong_000017527")): Object: 'Object Repository/Ecomm/Page_Success Page/strong_000017527' is clicked on
+
+01-09-2024T21:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Success Page/strong_000017527' is clicked on
+
+01-09-2024T21:42:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-09-2024T21:42:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-09-2024T21:41:00 - [TEST_SUITE][PASSED] - Regression_TS: Test Cases/OrderPlacement]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

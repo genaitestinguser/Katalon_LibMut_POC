@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression_TS,Chrome 128.0.0.0,,,01-09-2024 21:27:34,01-09-2024 21:27:51,16.883s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 128.0.0.0,,,01-09-2024 21:27:34,01-09-2024 21:27:51,16.432s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,01-09-2024 21:27:35,01-09-2024 21:27:37,2.637s,PASSED
+navigateToUrl(AppUrl),Chrome 128.0.0.0,,,01-09-2024 21:27:37,01-09-2024 21:27:42,4.394s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,01-09-2024 21:27:42,01-09-2024 21:27:42,0.141s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Home Page/a_Sign In""))",Chrome 128.0.0.0,,,01-09-2024 21:27:42,01-09-2024 21:27:46,3.572s,PASSED
+"setText(findTestObject(""Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername""), Username)",Chrome 128.0.0.0,,,01-09-2024 21:27:46,01-09-2024 21:27:47,1.451s,PASSED
+"setText(findTestObject(""Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword""), Password)",Chrome 128.0.0.0,,,01-09-2024 21:27:47,01-09-2024 21:27:48,1.357s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Customer Login/span_Sign In""))",Chrome 128.0.0.0,,,01-09-2024 21:27:48,01-09-2024 21:27:51,2.561s,PASSED

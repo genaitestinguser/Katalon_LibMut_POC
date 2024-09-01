@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Ecomm/Page_Checkout/input_First Name_firstname",
+      "brokenLocator": "//input[@id\u003d\u0027X841GK1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027shipping-new-address-form\u0027]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240901_213624/Regression_TS/20240901_213630/Object Repository/Ecomm/Page_Checkout/input_First Name_firstname_idRelative.png"
+    }
+  ]
+}

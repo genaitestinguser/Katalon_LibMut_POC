@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression_TS" time="16.883" tests="1" failures="0" errors="0">
+   <testsuite name="Regression_TS" tests="1" failures="0" errors="0" time="16.883" skipped="0" timestamp="01-09-2024T21:27:34" hostname="Administrator - 172.31.10.162" id="Test Suites/Regression_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\Katalon_LibMut_POC\\Reports\\20240901_212724\\Regression_TS\\20240901_212729"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\Katalon_LibMut_POC\\Reports\\20240901_212724\\Regression_TS\\20240901_212729\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 172.31.10.162"/>
+         <property name="os" value="Windows Server 2022 64bit"/>
+         <property name="katalonVersion" value="9.7.1.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="172.31.10.162"/>
+         <property name="sessionId" value="2f879c774bcad0f75f65b0d27985345d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2022"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="16.432" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[01-09-2024T21:27:34 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+01-09-2024T21:27:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-09-2024T21:27:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-09-2024T21:27:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-09-2024T21:27:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-09-2024T21:27:37 - [TEST_STEP][PASSED] - navigateToUrl(AppUrl): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+01-09-2024T21:27:42 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+01-09-2024T21:27:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-09-2024T21:27:42 - [MESSAGE][PASSED] - Current window maximized
+
+01-09-2024T21:27:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Home Page/a_Sign In")): Object: 'Object Repository/Ecomm/Page_Home Page/a_Sign In' is clicked on
+
+01-09-2024T21:27:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Home Page/a_Sign In' is clicked on
+
+01-09-2024T21:27:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername"), Username): Text 'libosem856@apifan.com' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'
+
+01-09-2024T21:27:47 - [MESSAGE][PASSED] - Text 'libosem856@apifan.com' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'
+
+01-09-2024T21:27:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword"), Password): Text 'Test@123' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'
+
+01-09-2024T21:27:48 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'
+
+01-09-2024T21:27:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Ecomm/Page_Customer Login/span_Sign In' is clicked on
+
+01-09-2024T21:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Customer Login/span_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-09-2024T21:27:34 - [TEST_SUITE][PASSED] - Regression_TS: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

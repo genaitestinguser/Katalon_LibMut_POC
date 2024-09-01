@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4",
+      "brokenLocator": "//input[@name\u003d\u0027ko_unique_4\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027checkout-shipping-method-load\u0027]/table/tbody/tr[2]/td/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240901_214049/Regression_TS/20240901_214055/Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4_idRelative.png"
+    }
+  ]
+}

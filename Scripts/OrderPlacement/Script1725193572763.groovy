@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
 //Open the browser
 WebUI.openBrowser('')
@@ -26,7 +27,6 @@ WebUI.navigateToUrl(GlobalVariable.AppUrl)
 WebUI.maximizeWindow()
 
 //Enter the user id and password and sign-in
-
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Home Page/a_Sign In'))
 
 WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'), GlobalVariable.Username)
@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Ecomm/Page_Customer Login/span_Sig
 
 
 
-
+//Select the jacket and add to cart
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e'))
 
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Men/a_Jackets'))
@@ -52,42 +52,11 @@ WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Montana Wind Jacket/i
 
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart'))
 
-WebUI.click(findTestObject('Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart'))
 
+//intiate the checkout process with default address
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Montana Wind Jacket/span_4'))
 
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout'))
-
-WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/span_New Address'))
-
-WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/input_First Name_firstname'))
-
-WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/div_First Name                             _fcb15f'))
-
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_First Name_firstname'), 'testa')
-
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_Last Name_lastname'), 'test')
-
-WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/div_First Name                             _fcb15f'))
-
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_Last Name_lastname'), 'testb')
-
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_Street Address Line 1_street0'), '123 asddf')
-
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_City_city'), 'bvc')
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Ecomm/Page_Checkout/select_Please select a region, state or pro_d80c8a'), 
-    '2', true)
-
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_ZipPostal Code_postcode'), '123456')
-
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_Phone Number_telephone'), '123456')
-
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_ZipPostal Code_postcode'), '12345')
-
-WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/span_Ship here'))
-
-WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/span_Next'))
 
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4'))
 
@@ -95,7 +64,47 @@ WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/span_Next'))
 
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/span_Place Order'))
 
-WebUI.click(findTestObject('Object Repository/Ecomm/Page_Success Page/strong_000017527'))
+//Get the Order number generated
+WebUI.takeScreenshot()
+strOrderNumber = WebUI.getText(findTestObject('Object Repository/Ecomm/Page_Success Page/strong_OrderNumber'))
+KeywordUtil.logInfo("Order Number: "+strOrderNumber)
+WebUI.click(findTestObject('Object Repository/Ecomm/Page_Success Page/strong_OrderNumber'))
+KeywordUtil.markPassed("Test Passed")
 
+
+//Execution completed ... close the browser
 WebUI.closeBrowser()
+
+
+
+
+//Script for adding new address
+//WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/span_New Address'))
+//
+//WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/input_First Name_firstname'))
+//
+//WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/div_First Name                             _fcb15f'))
+//
+//WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_First Name_firstname'), 'testa')
+//
+//WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_Last Name_lastname'), 'test')
+//
+//WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/div_First Name                             _fcb15f'))
+//
+//WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_Last Name_lastname'), 'testb')
+//
+//WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_Street Address Line 1_street0'), '123 asddf')
+//
+//WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_City_city'), 'bvc')
+//
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Ecomm/Page_Checkout/select_Please select a region, state or pro_d80c8a'),
+//    '2', true)
+//
+//WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_ZipPostal Code_postcode'), '12345')
+//
+//WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Checkout/input_Phone Number_telephone'), '123456')
+//
+//WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/span_Ship here'))
+//
+//WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/span_Next'))
 

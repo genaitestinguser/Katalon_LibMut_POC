@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression_TS" time="103.495" tests="2" failures="0" errors="0">
+   <testsuite name="Regression_TS" tests="2" failures="0" errors="0" time="103.495" skipped="0" timestamp="01-09-2024T22:18:37" hostname="Administrator - 172.31.10.162" id="Test Suites/Regression_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\Katalon_LibMut_POC\\Reports\\20240901_221826\\Regression_TS\\20240901_221831"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\Katalon_LibMut_POC\\Reports\\20240901_221826\\Regression_TS\\20240901_221831\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\git\\Katalon_LibMut_POC\\Reports\\20240901_221826\\Regression_TS\\20240901_221831\\1725209368954.png, C:\\Users\\Administrator\\git\\Katalon_LibMut_POC\\Reports\\20240901_221826\\Regression_TS\\20240901_221831\\1725209418374.png"/>
+         <property name="hostName" value="Administrator - 172.31.10.162"/>
+         <property name="os" value="Windows Server 2022 64bit"/>
+         <property name="katalonVersion" value="9.7.1.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="172.31.10.162"/>
+         <property name="sessionId" value="268214c9183c3c68ae1d3c8a6205dca7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2022"/>
+      </properties>
+      <testcase name="Test Cases/OrderPlacement" time="53.846" classname="Test Cases/OrderPlacement" status="PASSED">
+         <system-out><![CDATA[01-09-2024T22:18:38 - [TEST_CASE][PASSED] - Test Cases/OrderPlacement: Test Cases/OrderPlacement
+
+01-09-2024T22:18:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-09-2024T22:18:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-09-2024T22:18:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-09-2024T22:18:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-09-2024T22:18:41 - [TEST_STEP][PASSED] - navigateToUrl(AppUrl): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+01-09-2024T22:18:45 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+01-09-2024T22:18:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-09-2024T22:18:45 - [MESSAGE][PASSED] - Current window maximized
+
+01-09-2024T22:18:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Home Page/a_Sign In")): Object: 'Object Repository/Ecomm/Page_Home Page/a_Sign In' is clicked on
+
+01-09-2024T22:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Home Page/a_Sign In' is clicked on
+
+01-09-2024T22:18:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername"), Username): Text 'libosem856@apifan.com' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'
+
+01-09-2024T22:18:48 - [MESSAGE][PASSED] - Text 'libosem856@apifan.com' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'
+
+01-09-2024T22:18:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword"), Password): Text 'Test@123' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'
+
+01-09-2024T22:18:50 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'
+
+01-09-2024T22:18:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Ecomm/Page_Customer Login/span_Sign In' is clicked on
+
+01-09-2024T22:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Customer Login/span_Sign In' is clicked on
+
+01-09-2024T22:18:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e")): Object: 'Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is clicked on
+
+01-09-2024T22:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is clicked on
+
+01-09-2024T22:18:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Men/a_Jackets")): Object: 'Object Repository/Ecomm/Page_Men/a_Jackets' is clicked on
+
+01-09-2024T22:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Men/a_Jackets' is clicked on
+
+01-09-2024T22:18:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket")): Object: 'Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket' is clicked on
+
+01-09-2024T22:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket' is clicked on
+
+01-09-2024T22:18:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/div_L")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_L' is clicked on
+
+01-09-2024T22:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_L' is clicked on
+
+01-09-2024T22:19:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53' is clicked on
+
+01-09-2024T22:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53' is clicked on
+
+01-09-2024T22:19:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty"), quantity): Text '3' is set on object 'Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty'
+
+01-09-2024T22:19:06 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty'
+
+01-09-2024T22:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+01-09-2024T22:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+01-09-2024T22:19:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/span_4")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_4' is clicked on
+
+01-09-2024T22:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_4' is clicked on
+
+01-09-2024T22:19:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout' is clicked on
+
+01-09-2024T22:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout' is clicked on
+
+01-09-2024T22:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4")): Object: 'Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4' is clicked on
+
+01-09-2024T22:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4' is clicked on
+
+01-09-2024T22:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Checkout/span_Next")): Object: 'Object Repository/Ecomm/Page_Checkout/span_Next' is clicked on
+
+01-09-2024T22:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Checkout/span_Next' is clicked on
+
+01-09-2024T22:19:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Checkout/span_Place Order")): Object: 'Object Repository/Ecomm/Page_Checkout/span_Place Order' is clicked on
+
+01-09-2024T22:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Checkout/span_Place Order' is clicked on
+
+01-09-2024T22:19:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-09-2024T22:19:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\git\\Katalon_LibMut_POC\\Reports\\20240901_221826\\Regression_TS\\20240901_221831\\1725209368954.png]]
+
+01-09-2024T22:19:29 - [TEST_STEP][PASSED] - strOrderNumber = getText(findTestObject("Object Repository/Ecomm/Page_Success Page/strong_OrderNumber")): Text of object 'Object Repository/Ecomm/Page_Success Page/strong_OrderNumber' is: '000017636'
+
+01-09-2024T22:19:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Ecomm/Page_Success Page/strong_OrderNumber' is: '000017636'
+
+01-09-2024T22:19:29 - [TEST_STEP][PASSED] - logInfo("Order Number: " + strOrderNumber): Order Number: 000017636
+
+01-09-2024T22:19:29 - [MESSAGE][INFO] - Order Number: 000017636
+
+01-09-2024T22:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Success Page/strong_OrderNumber")): Object: 'Object Repository/Ecomm/Page_Success Page/strong_OrderNumber' is clicked on
+
+01-09-2024T22:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Success Page/strong_OrderNumber' is clicked on
+
+01-09-2024T22:19:31 - [TEST_STEP][PASSED] - markPassed("Test Passed"): Test Passed
+
+01-09-2024T22:19:31 - [MESSAGE][PASSED] - Test Passed
+
+01-09-2024T22:19:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-09-2024T22:19:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OrderPlacement" time="49.161" classname="Test Cases/OrderPlacement" status="PASSED">
+         <system-out><![CDATA[01-09-2024T22:19:32 - [TEST_CASE][PASSED] - Test Cases/OrderPlacement: Test Cases/OrderPlacement
+
+01-09-2024T22:19:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-09-2024T22:19:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-09-2024T22:19:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-09-2024T22:19:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-09-2024T22:19:33 - [TEST_STEP][PASSED] - navigateToUrl(AppUrl): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+01-09-2024T22:19:37 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+01-09-2024T22:19:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-09-2024T22:19:37 - [MESSAGE][PASSED] - Current window maximized
+
+01-09-2024T22:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Home Page/a_Sign In")): Object: 'Object Repository/Ecomm/Page_Home Page/a_Sign In' is clicked on
+
+01-09-2024T22:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Home Page/a_Sign In' is clicked on
+
+01-09-2024T22:19:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername"), Username): Text 'libosem856@apifan.com' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'
+
+01-09-2024T22:19:41 - [MESSAGE][PASSED] - Text 'libosem856@apifan.com' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'
+
+01-09-2024T22:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword"), Password): Text 'Test@123' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'
+
+01-09-2024T22:19:41 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'
+
+01-09-2024T22:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Ecomm/Page_Customer Login/span_Sign In' is clicked on
+
+01-09-2024T22:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Customer Login/span_Sign In' is clicked on
+
+01-09-2024T22:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e")): Object: 'Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is clicked on
+
+01-09-2024T22:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is clicked on
+
+01-09-2024T22:19:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Men/a_Jackets")): Object: 'Object Repository/Ecomm/Page_Men/a_Jackets' is clicked on
+
+01-09-2024T22:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Men/a_Jackets' is clicked on
+
+01-09-2024T22:19:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket")): Object: 'Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket' is clicked on
+
+01-09-2024T22:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket' is clicked on
+
+01-09-2024T22:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/div_L")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_L' is clicked on
+
+01-09-2024T22:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_L' is clicked on
+
+01-09-2024T22:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53' is clicked on
+
+01-09-2024T22:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53' is clicked on
+
+01-09-2024T22:19:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty"), quantity): Text '4' is set on object 'Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty'
+
+01-09-2024T22:20:00 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty'
+
+01-09-2024T22:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+01-09-2024T22:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+01-09-2024T22:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/span_4")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_4' is clicked on
+
+01-09-2024T22:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/span_4' is clicked on
+
+01-09-2024T22:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout")): Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout' is clicked on
+
+01-09-2024T22:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout' is clicked on
+
+01-09-2024T22:20:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4")): Object: 'Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4' is clicked on
+
+01-09-2024T22:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4' is clicked on
+
+01-09-2024T22:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Checkout/span_Next")): Object: 'Object Repository/Ecomm/Page_Checkout/span_Next' is clicked on
+
+01-09-2024T22:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Checkout/span_Next' is clicked on
+
+01-09-2024T22:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Checkout/span_Place Order")): Object: 'Object Repository/Ecomm/Page_Checkout/span_Place Order' is clicked on
+
+01-09-2024T22:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Checkout/span_Place Order' is clicked on
+
+01-09-2024T22:20:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+01-09-2024T22:20:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\git\\Katalon_LibMut_POC\\Reports\\20240901_221826\\Regression_TS\\20240901_221831\\1725209418374.png]]
+
+01-09-2024T22:20:18 - [TEST_STEP][PASSED] - strOrderNumber = getText(findTestObject("Object Repository/Ecomm/Page_Success Page/strong_OrderNumber")): Text of object 'Object Repository/Ecomm/Page_Success Page/strong_OrderNumber' is: '000017637'
+
+01-09-2024T22:20:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Ecomm/Page_Success Page/strong_OrderNumber' is: '000017637'
+
+01-09-2024T22:20:18 - [TEST_STEP][PASSED] - logInfo("Order Number: " + strOrderNumber): Order Number: 000017637
+
+01-09-2024T22:20:18 - [MESSAGE][INFO] - Order Number: 000017637
+
+01-09-2024T22:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecomm/Page_Success Page/strong_OrderNumber")): Object: 'Object Repository/Ecomm/Page_Success Page/strong_OrderNumber' is clicked on
+
+01-09-2024T22:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecomm/Page_Success Page/strong_OrderNumber' is clicked on
+
+01-09-2024T22:20:21 - [TEST_STEP][PASSED] - markPassed("Test Passed"): Test Passed
+
+01-09-2024T22:20:21 - [MESSAGE][PASSED] - Test Passed
+
+01-09-2024T22:20:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-09-2024T22:20:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-09-2024T22:18:37 - [TEST_SUITE][PASSED] - Regression_TS: Test Cases/OrderPlacement]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

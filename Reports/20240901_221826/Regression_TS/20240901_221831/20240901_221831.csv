@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression_TS,Chrome 128.0.0.0,,,01-09-2024 22:18:37,01-09-2024 22:20:21,1m - 43.495s,PASSED
+,,,,,,,
+Test Cases/OrderPlacement,Chrome 128.0.0.0,,,01-09-2024 22:18:38,01-09-2024 22:19:32,53.846s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,01-09-2024 22:18:38,01-09-2024 22:18:41,2.482s,PASSED
+navigateToUrl(AppUrl),Chrome 128.0.0.0,,,01-09-2024 22:18:41,01-09-2024 22:18:45,4.128s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,01-09-2024 22:18:45,01-09-2024 22:18:45,0.123s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Home Page/a_Sign In""))",Chrome 128.0.0.0,,,01-09-2024 22:18:45,01-09-2024 22:18:47,1.968s,PASSED
+"setText(findTestObject(""Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername""), Username)",Chrome 128.0.0.0,,,01-09-2024 22:18:47,01-09-2024 22:18:48,1.253s,PASSED
+"setText(findTestObject(""Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword""), Password)",Chrome 128.0.0.0,,,01-09-2024 22:18:48,01-09-2024 22:18:50,1.635s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Customer Login/span_Sign In""))",Chrome 128.0.0.0,,,01-09-2024 22:18:50,01-09-2024 22:18:52,2.438s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e""))",Chrome 128.0.0.0,,,01-09-2024 22:18:52,01-09-2024 22:18:55,2.844s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Men/a_Jackets""))",Chrome 128.0.0.0,,,01-09-2024 22:18:55,01-09-2024 22:18:57,2.169s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket""))",Chrome 128.0.0.0,,,01-09-2024 22:18:57,01-09-2024 22:18:59,1.733s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/div_L""))",Chrome 128.0.0.0,,,01-09-2024 22:18:59,01-09-2024 22:19:05,5.354s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53""))",Chrome 128.0.0.0,,,01-09-2024 22:19:05,01-09-2024 22:19:05,0.518s,PASSED
+"setText(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty""), quantity)",Chrome 128.0.0.0,,,01-09-2024 22:19:05,01-09-2024 22:19:06,0.788s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart""))",Chrome 128.0.0.0,,,01-09-2024 22:19:06,01-09-2024 22:19:07,0.752s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/span_4""))",Chrome 128.0.0.0,,,01-09-2024 22:19:07,01-09-2024 22:19:12,4.991s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout""))",Chrome 128.0.0.0,,,01-09-2024 22:19:12,01-09-2024 22:19:15,3.086s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4""))",Chrome 128.0.0.0,,,01-09-2024 22:19:15,01-09-2024 22:19:17,2.559s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Checkout/span_Next""))",Chrome 128.0.0.0,,,01-09-2024 22:19:17,01-09-2024 22:19:18,0.346s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Checkout/span_Place Order""))",Chrome 128.0.0.0,,,01-09-2024 22:19:18,01-09-2024 22:19:23,4.911s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,,,01-09-2024 22:19:23,01-09-2024 22:19:29,6.029s,PASSED
+"strOrderNumber = getText(findTestObject(""Object Repository/Ecomm/Page_Success Page/strong_OrderNumber""))",Chrome 128.0.0.0,,,01-09-2024 22:19:29,01-09-2024 22:19:29,0.283s,PASSED
+"logInfo(""Order Number: "" + strOrderNumber)",Chrome 128.0.0.0,,,01-09-2024 22:19:29,01-09-2024 22:19:29,0.007s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Success Page/strong_OrderNumber""))",Chrome 128.0.0.0,,,01-09-2024 22:19:29,01-09-2024 22:19:31,2.556s,PASSED
+"markPassed(""Test Passed"")",Chrome 128.0.0.0,,,01-09-2024 22:19:31,01-09-2024 22:19:31,0.012s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,01-09-2024 22:19:31,01-09-2024 22:19:32,0.267s,PASSED
+,,,,,,,
+Test Cases/OrderPlacement,Chrome 128.0.0.0,,,01-09-2024 22:19:32,01-09-2024 22:20:21,49.161s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,01-09-2024 22:19:32,01-09-2024 22:19:33,0.998s,PASSED
+navigateToUrl(AppUrl),Chrome 128.0.0.0,,,01-09-2024 22:19:33,01-09-2024 22:19:37,3.691s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,01-09-2024 22:19:37,01-09-2024 22:19:37,0.115s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Home Page/a_Sign In""))",Chrome 128.0.0.0,,,01-09-2024 22:19:37,01-09-2024 22:19:40,2.980s,PASSED
+"setText(findTestObject(""Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername""), Username)",Chrome 128.0.0.0,,,01-09-2024 22:19:40,01-09-2024 22:19:41,1.021s,PASSED
+"setText(findTestObject(""Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword""), Password)",Chrome 128.0.0.0,,,01-09-2024 22:19:41,01-09-2024 22:19:41,0.640s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Customer Login/span_Sign In""))",Chrome 128.0.0.0,,,01-09-2024 22:19:41,01-09-2024 22:19:44,3.043s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e""))",Chrome 128.0.0.0,,,01-09-2024 22:19:44,01-09-2024 22:19:48,4.122s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Men/a_Jackets""))",Chrome 128.0.0.0,,,01-09-2024 22:19:48,01-09-2024 22:19:51,2.190s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Jackets - Tops - Men/a_Montana Wind Jacket""))",Chrome 128.0.0.0,,,01-09-2024 22:19:51,01-09-2024 22:19:52,1.529s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/div_L""))",Chrome 128.0.0.0,,,01-09-2024 22:19:52,01-09-2024 22:19:58,5.909s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-53""))",Chrome 128.0.0.0,,,01-09-2024 22:19:58,01-09-2024 22:19:59,0.706s,PASSED
+"setText(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/input_Qty_qty""), quantity)",Chrome 128.0.0.0,,,01-09-2024 22:19:59,01-09-2024 22:20:00,0.766s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/span_Add to Cart""))",Chrome 128.0.0.0,,,01-09-2024 22:20:00,01-09-2024 22:20:00,0.313s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/span_4""))",Chrome 128.0.0.0,,,01-09-2024 22:20:00,01-09-2024 22:20:03,3.441s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Montana Wind Jacket/button_Proceed to Checkout""))",Chrome 128.0.0.0,,,01-09-2024 22:20:03,01-09-2024 22:20:06,2.636s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Checkout/input_Best Way_ko_unique_4""))",Chrome 128.0.0.0,,,01-09-2024 22:20:06,01-09-2024 22:20:08,2.072s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Checkout/span_Next""))",Chrome 128.0.0.0,,,01-09-2024 22:20:08,01-09-2024 22:20:08,0.306s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Checkout/span_Place Order""))",Chrome 128.0.0.0,,,01-09-2024 22:20:08,01-09-2024 22:20:11,3.066s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,,,01-09-2024 22:20:11,01-09-2024 22:20:18,6.603s,PASSED
+"strOrderNumber = getText(findTestObject(""Object Repository/Ecomm/Page_Success Page/strong_OrderNumber""))",Chrome 128.0.0.0,,,01-09-2024 22:20:18,01-09-2024 22:20:18,0.291s,PASSED
+"logInfo(""Order Number: "" + strOrderNumber)",Chrome 128.0.0.0,,,01-09-2024 22:20:18,01-09-2024 22:20:18,0.000s,PASSED
+"click(findTestObject(""Object Repository/Ecomm/Page_Success Page/strong_OrderNumber""))",Chrome 128.0.0.0,,,01-09-2024 22:20:18,01-09-2024 22:20:21,2.418s,PASSED
+"markPassed(""Test Passed"")",Chrome 128.0.0.0,,,01-09-2024 22:20:21,01-09-2024 22:20:21,0.001s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,01-09-2024 22:20:21,01-09-2024 22:20:21,0.215s,PASSED

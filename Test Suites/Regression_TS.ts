@@ -23,6 +23,21 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/OrderPlacement</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2d333855-09f0-4603-a2a7-6805d8a5ded0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CSV_OrdCreation</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2d333855-09f0-4603-a2a7-6805d8a5ded0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>quantity</value>
+         <variableId>54f65389-84f2-4e43-8538-514f1eb4dfc5</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

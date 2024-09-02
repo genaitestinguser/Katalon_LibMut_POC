@@ -62,11 +62,15 @@ WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/span_Next'))
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Checkout/span_Place Order'))
 
 //Get the Order number generated
-WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Ecomm/Page_Success Page/span_ThanksForOrder'), 5)
 
 strOrderNumber = WebUI.getText(findTestObject('Object Repository/Ecomm/Page_Success Page/strong_OrderNumber'))
 
 KeywordUtil.logInfo('Order Number: ' + strOrderNumber)
+WebUI.takeScreenshot()
+
+
 
 WebUI.click(findTestObject('Object Repository/Ecomm/Page_Success Page/strong_OrderNumber'))
 

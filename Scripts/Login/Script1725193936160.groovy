@@ -20,17 +20,22 @@ import org.openqa.selenium.Keys as Keys
 //Open the browser
 WebUI.openBrowser('')
 
-//Navigate to the Ecommerce Application
-WebUI.navigateToUrl(GlobalVariable.AppUrl)
+WebUI.closeBrowser()
 
-WebUI.maximizeWindow()
+WebUI.openBrowser('')
 
-//Enter the user id and password and sign-in
+WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
 
-WebUI.click(findTestObject('Object Repository/Ecomm/Page_Home Page/a_Sign In'))
+WebUI.click(findTestObject('Object Repository/Demo/Page_Home Page/a_Support This Project'))
 
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Customer Login/input_Email_loginusername'), GlobalVariable.Username)
+WebUI.click(findTestObject('Object Repository/Demo/Page_Software Testing Board is Creating a c_b0470d/Support 5'))
 
-WebUI.setText(findTestObject('Object Repository/Ecomm/Page_Customer Login/input_Password_loginpassword'), GlobalVariable.Password)
+WebUI.click(findTestObject('Object Repository/Demo/Page_Software Testing Board is Creating a c_b0470d/div_Pay Pay with card'))
 
-WebUI.click(findTestObject('Object Repository/Ecomm/Page_Customer Login/span_Sign In'))
+WebUI.setText(findTestObject('Object Repository/Demo/Page_Software Testing Board is Creating a c_b0470d/input_5_w-full tw-remove-default-styling tw_fa2b0a'), 
+    'sfsdfd@test.com')
+
+WebUI.click(findTestObject('Object Repository/Demo/Page_Software Testing Board is Creating a c_b0470d/button_Pay'))
+
+WebUI.click(findTestObject('Object Repository/Demo/Page_Software Testing Board is Creating a c_b0470d/div_Checkout_cursor-pointer rounded-full fl_cc8274'))
+
